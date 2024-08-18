@@ -1,14 +1,12 @@
+; Run this script with AutoHotKey v2
+; To enable this script at startup, paste this script into your `shell:startup` folder.
+
 ; Remap these keys with SharpKeys
-
-; [Regular Keyboard]
-; LCtrl => RCtrl
-; LWin => LAlt
-; LAlt => LCtrl
-; RAlt => LWin (Optional)
-
-; [Mac Keyboard]
-; LCtrl => RCtrl
-; LWin => LCtrl
+; [Regular Keyboard]                [Mac Keyboard]
+; - LCtrl => RCtrl                  - LCtrl => RCtrl
+; - LWin => LAlt                    - LWin => LCtrl
+; - LAlt => LCtrl
+; - RAlt => LWin (Optional)
 
 #SingleInstance Force
 SendMode("Input")
