@@ -102,7 +102,6 @@ Ctrl & Tab::AltTab
 
 >^A::{
     Suspend(true)
-    Send("{Blind}{Ctrl Up}")
     Send("{Home}")
     Suspend(false)
     return
