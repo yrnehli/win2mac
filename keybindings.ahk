@@ -145,6 +145,7 @@ Ctrl & Tab::AltTab
     Send("{Shift Up}")
     Send("{Backspace}")
     Suspend(false)
+    return
 }
 
 !Backspace::{
@@ -153,4 +154,5 @@ Ctrl & Tab::AltTab
     Send("{Backspace}")
     Send("{Ctrl Up}")
     Suspend(false)
+    return
 }
