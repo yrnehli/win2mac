@@ -13,7 +13,7 @@ SendMode("Input")
 SetWorkingDir(A_ScriptDir)
 
 ; UK Layout Keybindings
-; LShift & 3::Send("£")
+; Shift & 3::Send("£")
 ; !3::Send("{Raw}#")
 
 Ctrl & Tab::AltTab
