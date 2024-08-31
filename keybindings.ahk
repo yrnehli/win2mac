@@ -19,7 +19,11 @@ SetWorkingDir(A_ScriptDir)
 Ctrl & Tab::AltTab
 !Tab::Send("^{Tab}")
 
+; Quit App
 ^q::Send("!{f4}")
+
+; Screenshot
+^+4::Send("#+s")
 
 ^Left::{
     Suspend(true)
